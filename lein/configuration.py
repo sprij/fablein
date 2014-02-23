@@ -76,7 +76,7 @@ class ConfigLoader(object):
 
         config = dict(task_config or {}, **project_config or {})
 
-        return {k: TaskConfig(v) for k, v in config.iteritems()}
+        return dict((k, TaskConfig(v)) for k, v in config.iteritems())
 
     @staticmethod
     def load_yaml(path, error_on_missing=False):
