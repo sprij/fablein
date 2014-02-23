@@ -1,0 +1,17 @@
+#
+# Lein tasks
+#
+
+##################################################
+# Style checking Task
+##################################################
+style:
+  description: Check pep8 conventions.
+  commands: pep8
+
+##################################################
+# Clean Task
+##################################################
+clean:
+  description: Clean garbage.
+  commands: rm -rf .tox fablein.egg-info build

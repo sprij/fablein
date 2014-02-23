@@ -1,0 +1,18 @@
+#
+# Lein default tasks
+#
+
+##################################################
+# Test Task
+##################################################
+test:
+  description: Run all tests.
+  folder: tests
+  commands: python -m unittest discover
+
+##################################################
+# Package Task
+##################################################
+package:
+  description: Package project.
+  commands: python setup.py build
