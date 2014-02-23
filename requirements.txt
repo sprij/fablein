@@ -1,4 +1,4 @@
 fabric>=1.8.1
 pyaml>=3.10
 mock>=1.0.1
-unittest2‎>=0.5.1
+unittest2>=0.5.1
