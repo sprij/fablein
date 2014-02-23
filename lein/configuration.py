@@ -55,7 +55,7 @@ class ConfigLoader(object):
     Configuration load for Lein.
     """
     TASKS_CONFIG_FILE = 'tasks.yaml'
-    PROJECT_CONFIG_FILE = 'lein.yaml'
+    PROJECT_CONFIG_FILE = '.lein.yaml'
 
     def get(self):
         """
